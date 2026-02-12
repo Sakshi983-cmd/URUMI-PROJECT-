@@ -1,1 +1,21 @@
+# Local Development Values (k3d)
+wordpressUsername: admin
+wordpressPassword: admin123
 
+mariadb:
+  auth:
+    rootPassword: rootpass123
+
+service:
+  type: LoadBalancer
+
+ingress:
+  enabled: false
+
+resources:
+  requests:
+    memory: "256Mi"
+    cpu: "250m"
+  limits:
+    memory: "512Mi"
+    cpu: "500m"
