@@ -6,12 +6,7 @@
 
 <p align="center">
   <b>An Enterprise-Grade Kubernetes-Native Platform for Rapid, Multi-Tenant WooCommerce Orchestration.</b>
-  <br />
-  <br />
-  <img src="https://img.shields.io" />
-  <img src="https://img.shields.io" />
-  <img src="https://img.shields.io" />
-</p>
+  
 
 ---
 
@@ -58,3 +53,4 @@ graph TD
     style E fill:#0d1117,stroke:#58a6ff,stroke-width:2px,color:#58a6ff
     style G fill:#161b22,stroke:#30363d,color:#c9d1d9
     style H fill:#161b22,stroke:#30363d,color:#c9d1d9
+
