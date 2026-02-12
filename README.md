@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com" width="130" />
+ 
 </p>
 
 <h1 align="center">💠 URUMI STORE PROVISIONING ENGINE</h1>
@@ -53,4 +53,5 @@ graph TD
     style E fill:#0d1117,stroke:#58a6ff,stroke-width:2px,color:#58a6ff
     style G fill:#161b22,stroke:#30363d,color:#c9d1d9
     style H fill:#161b22,stroke:#30363d,color:#c9d1d9
+
 
