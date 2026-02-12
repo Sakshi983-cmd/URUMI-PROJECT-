@@ -1,0 +1,24 @@
+# Production Values (k3s VPS)
+wordpressUsername: admin
+wordpressPassword: CHANGE_ME_STRONG_PASSWORD
+
+mariadb:
+  auth:
+    rootPassword: CHANGE_ME_STRONG_ROOT_PASSWORD
+
+service:
+  type: ClusterIP
+
+ingress:
+  enabled: true
+  hostname: store.yourdomain.com
+  annotations:
+    kubernetes.io/ingress.class: traefik
+
+resources:
+  requests:
+    memory: "512Mi"
+    cpu: "500m"
+  limits:
+    memory: "1Gi"
+    cpu: "1000m"
